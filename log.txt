@@ -1,0 +1,15 @@
+So I have to figure out JSON so I can filter all this shit. Looks like most of these projects dump all this stuff into JSON to store it and call it in a neat way.
+Looks like after strongifying the data I store it in my local memory, maybe thats restricted access for efficient memory management. After whenever I need to use that stored data I need to parse it as an object. It's good to see how seemless this lanagauge is.
+Also JSON format is text only which is cool because I get to dump this into python.
+Can I work with just JSON and not use splunk? Maybe so all JSON does is it becomes a way to dump all the data. What is splunk being used for?
+
+I've made a method for finding the audio features of a list containing track uris, next is appending that result to the pickle/pd data frame. 
+
+iterate and change the dumps to ceate values so that you can normalize the json objects to load them intoa  dataframe.
+
+Normalizing didn't work because the data was not a JSON dump it was a list of dicts, I had to iterate through that list and append that data to my dataframe, there were some corrupted values I'm probably just going to drop them from my dataset. I only hope that the corrupted data aren't significant entries.
+
+Now my next step is to try to make search queries from my billboards data set to my spotify songs database.
+Logical, probably not given that this data set is fucking HUGE.
+
+
